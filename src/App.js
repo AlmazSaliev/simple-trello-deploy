@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <BrowserRouter>
-        <Route path="/*">
+        <Route path="/almazsaliev.github.io/simple-trello-deploy">
           <Redirect to="/main" />
         </Route>
         <Route path="/registration" exact>
