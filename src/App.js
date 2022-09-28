@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <BrowserRouter>
-        <Route path="/">
+        <Route path="/*">
           <Redirect to="/main" />
         </Route>
         <Route path="/registration" exact>
